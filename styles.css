@@ -1,0 +1,2480 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1200px;
+  height: 104px;
+}
+
+.btn {
+  width: 80px;
+  height: 30px;
+  /* position: relative; */
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px rgb(0, 255, 0);
+  background-color: #1b8b44;
+  position: relative;
+
+}
+
+.btn .circle {
+  width: 30px;
+  box-shadow: 1px 1px 5px black;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  position: absolute;
+  
+}
+
+header nav .burger-menu {
+  display: none;
+  flex-direction: column;
+  align-items: end;
+  gap: 6px;
+}
+
+header nav .burger-menu .long-green {
+  height: 4.5px;
+  width: 45px;
+  background-color: #198b44;
+}
+
+header nav .burger-menu .short-green {
+  height: 4.5px;
+  width: 30px;
+  background-color: #198b44;
+}
+
+header nav .logo {
+  width: 95px;
+  height: 40px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+header nav .contact-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+header nav .contact-head a {
+  text-decoration: none;
+  font-size: 21px;
+  font-family: sans-serif;
+  color: black;
+  font-family: "League Spartan";
+  font-weight: 400;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 780px;
+  padding-left: 100px;
+}
+
+header nav ul .companies-li:hover .drop-down {
+  display: flex;
+}
+
+header nav ul .lang {
+  display: flex;
+  gap: 5px;
+}
+
+header nav ul .lang img {
+  border-radius: 100%;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li .drop-down {
+  width: 206px;
+  height: 127px;
+  display: none;
+  align-items: start;
+  padding-left: 20px;
+  position: absolute;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+header nav ul li .drop-down a:hover {
+  background-color: #c9ffc3;
+}
+
+header nav ul li .drop-down a:hover .fa-angle-right {
+  display: flex;
+}
+
+header nav ul li .drop-down a {
+  border: 1px solid black;
+  width: 174px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+header nav ul li .drop-down a .fa-angle-right {
+  font-size: 17px;
+  display: none;
+  padding-right: 15px;
+}
+
+header nav ul li .drop-down a div {
+  font-size: 17px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: sans-serif;
+  color: #000000;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+}
+
+main #home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main #home div {
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+main #home div .upperText-ofPic-home {
+  display: flex;
+  width: 1200px;
+  padding: 20px 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 49px;
+  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #home div .upperText-ofPic-home .down-text-upperText {
+  text-align: center;
+  width: 100%;
+  padding: 13px 0px;
+}
+
+main #home div .upperText-ofPic-home .up-text-upperText {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+}
+
+main #home div .upperText-ofPic-home .up-text-upperText img {
+  width: 304px;
+  height: 64px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+main #home div .home-down {
+  display: flex;
+}
+
+main #home div .home-down .secondRow-down-home {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+main #home div .home-down .secondRow-down-home img {
+  width: 384px;
+  height: 151px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+main #home div .home-down .firstRow-down-home img {
+  height: 677.01px;
+  width: 721px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+main #sec1-aboutUs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+main #sec1-aboutUs div {
+  width: 1200px;
+}
+
+main #sec1-aboutUs div .footer-about {
+  display: flex;
+  width: 1200px;
+  background-color: #ebfde9;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 50px 0px;
+}
+
+main #sec1-aboutUs div .footer-about .FooterThirdRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 600px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #616161;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 1200px;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW .numb {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW .numb p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  color: #616161;
+  line-height: 23px;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW .numb span {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW .numb span .circleBesidesNumber {
+  height: 30px;
+  width: 30px;
+  background-color: #1b8b44;
+  border-radius: 100%;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW .numb span p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW .row {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW .row span p {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW .row h1 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW .socials {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW .socials div {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b8b44;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW .socials div i {
+  font-size: 26px;
+  color: white;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW .socials h1 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW .socials span {
+  width: 200px;
+  padding-top: 20px;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW span {
+  width: 277px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW span .socials {
+  display: flex;
+  width: 200px;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW span span {
+  display: flex;
+  gap: 20px;
+}
+
+main #sec1-aboutUs div .footer-about .footeSecondRoW span span .fa-arrow-up-long {
+  transform: rotate(90deg);
+}
+
+main #sec1-aboutUs div .footer-about .footerFirstRoW {
+  width: 150px;
+  height: 60px;
+}
+
+main #sec1-aboutUs div .footer-about .footerFirstRoW img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+main #sec1-aboutUs div .map-sec1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 0px;
+}
+
+main #sec1-aboutUs div .map-sec1 .addedH1 {
+  display: none;
+}
+
+main #sec1-aboutUs div .map-sec1 .createdP-about {
+  display: none;
+}
+
+main #sec1-aboutUs div .map-sec1 h1 {
+  font-size: 72px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+main #sec1-aboutUs div .map-sec1 .emekdasliq {
+  width: 696px;
+  height: 564px;
+  background-color: #ebfde9;
+  border-radius: 10px;
+  margin-top: 90px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+main #sec1-aboutUs div .map-sec1 .emekdasliq .handShake {
+  display: flex;
+  width: 71px;
+  height: 71px;
+  margin: 80px 60px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px;
+  border-radius: 100%;
+  background-color: #ed7725;
+}
+
+main #sec1-aboutUs div .map-sec1 .emekdasliq .handShake .fa-handshake {
+  font-size: 34px;
+  color: white;
+}
+
+main #sec1-aboutUs div .map-sec1 .emekdasliq .handShake .fa-arrow-right-arrow-left {
+  font-size: 22px;
+  color: white;
+}
+
+main #sec1-aboutUs div .map-sec1 .emekdasliq h2 {
+  font-size: 40px;
+  padding-top: 55px;
+  color: #198b44;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+}
+
+main #sec1-aboutUs div .map-sec1 .emekdasliq span {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+main #sec1-aboutUs div .map-sec1 .emekdasliq span span {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main #sec1-aboutUs div .map-sec1 .emekdasliq span span p {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+main #sec1-aboutUs div .map-sec1 .emekdasliq span span span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 130px;
+}
+
+main #sec1-aboutUs div .map-sec1 .emekdasliq span span img {
+  border-radius: 200%;
+  width: 46px;
+  height: 46px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+main #sec1-aboutUs div .map-sec1 .countries {
+  display: flex;
+  justify-content: space-around;
+}
+
+main #sec1-aboutUs div .map-sec1 .countries .amo-komanda {
+  width: 488px;
+  height: 564px;
+  border-radius: 10px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding-left: 30px;
+  background-color: #ebfde9;
+}
+
+main #sec1-aboutUs div .map-sec1 .countries .amo-komanda .people-amoKomanda {
+  width: 71px;
+  height: 71px;
+  background-color: #fbd11d;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 320px;
+}
+
+main #sec1-aboutUs div .map-sec1 .countries .amo-komanda .people-amoKomanda .fa-users {
+  font-size: 30px;
+  color: white;
+}
+
+main #sec1-aboutUs div .map-sec1 .countries .amo-komanda span .flags {
+  display: flex;
+  width: 200px;
+  gap: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 40px;
+  flex-direction: row;
+}
+
+main #sec1-aboutUs div .map-sec1 .countries .amo-komanda span .flags img {
+  border-radius: 100%;
+  width: 46.57px;
+  height: 46.54px;
+}
+
+main #sec1-aboutUs div .map-sec1 .countries .amo-komanda span .flags p {
+  font-size: 30px;
+}
+
+main #sec1-aboutUs div .map-sec1 .countries .amo-komanda span h3 {
+  font-size: 45px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
+  color: #1b8b44;
+}
+
+main #sec1-aboutUs div .downHistory-sec1 {
+  width: 1200px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 180px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 .down-orange {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 75px;
+}
+
+main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 span {
+  background-color: #f37522;
+  width: 442.18px;
+  border-radius: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 143.41px;
+}
+
+main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 span .createdH2Resonsive {
+  display: none;
+}
+
+main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 span .createdP-Resonsive {
+  display: none;
+}
+
+main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 span h2 {
+  color: white;
+  font-size: 25px;
+  line-height: 30px;
+  width: 270px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  text-align: center;
+}
+
+main #sec1-aboutUs div .middle-sec1-aboutUs {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  height: -moz-fit-content;
+  height: fit-content;
+  gap: 50px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  flex-direction: column;
+}
+
+main #sec1-aboutUs div .middle-sec1-aboutUs .text-middle {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  text-align: center;
+  line-height: 30px;
+  color: #616161;
+  height: 52px;
+  width: 815px;
+}
+
+main #sec1-aboutUs div .middle-sec1-aboutUs .text-middle .AddedText-about {
+  display: none;
+}
+
+main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle {
+  display: flex;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle .boxes-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #198b44;
+  height: 134px;
+  width: 372px;
+  border-radius: 17px;
+}
+
+main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle .boxes-middle .createdResponsiveAbout {
+  display: none;
+}
+
+main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle .boxes-middle h3 {
+  letter-spacing: 1.6px;
+  letter-spacing: 1.6px;
+  font-size: 20px;
+  line-height: 25px;
+  width: 280px;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+main #sec1-aboutUs div .middle-sec1-aboutUs .aboutUs-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main #sec1-aboutUs div .middle-sec1-aboutUs .aboutUs-middle h1 {
+  font-size: 64px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec1-aboutUs div .start-sec1-aboutUs {
+  width: 1200px;
+  gap: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  flex-direction: column;
+}
+
+main #sec1-aboutUs div .start-sec1-aboutUs .responsiveText1-sec1-aboutUs {
+  display: none;
+}
+
+main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start {
+  display: flex;
+  justify-content: space-between;
+}
+
+main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start .boxes-start {
+  height: 128px;
+  width: 382px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start .boxes-start h5 {
+  font-size: 20px;
+  color: #616161;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start .boxes-start .box {
+  background-color: #198b44;
+  font-size: 44px;
+  height: 70px;
+  letter-spacing: 1.6px;
+  color: white;
+  font-weight: 400;
+  width: 372px;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main #sec1-aboutUs div .start-sec1-aboutUs p {
+  font-size: 24px;
+  color: #616161;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "League Spartan", sans-serif;
+  text-align: center;
+}
+
+main #sec1-aboutUs div .start-sec1-aboutUs .aboutUs-start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+main #sec1-aboutUs div .start-sec1-aboutUs .aboutUs-start .responsiveAbout-start {
+  display: none;
+}
+
+main #sec1-aboutUs div .start-sec1-aboutUs .aboutUs-start .responsiveText2-sec1-aboutUs {
+  display: none;
+}
+
+main #sec1-aboutUs div .start-sec1-aboutUs .aboutUs-start span {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #198b44;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main #sec1-aboutUs div .start-sec1-aboutUs .aboutUs-start span .fa-arrow-up-long {
+  font-size: 34px;
+  color: white;
+  transform: rotate(40deg);
+}
+
+main #sec1-aboutUs div .start-sec1-aboutUs .aboutUs-start h1 {
+  font-size: 64px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec1-amogrow {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main #sec1-amogrow div {
+  width: 880px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main #sec1-amogrow div .middleSec1-amoGrow {
+  position: relative;
+}
+
+main #sec1-amogrow div .middleSec1-amoGrow p {
+  font-size: 20px;
+  font-weight: 400px;
+  font-family: "League Spartan", sans-serif;
+  width: 657px;
+  color: #616161;
+  text-align: center;
+  line-height: 28px;
+}
+
+main #sec1-amogrow div .middleSec1-amoGrow .roundAmogrow {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: #198b44;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+main #sec1-amogrow div .middleSec1-amoGrow .roundAmogrow i {
+  font-size: 40px;
+  transform: rotate(45deg);
+  color: white;
+}
+
+main #sec1-amogrow div .middleSec1-amoGrow h1 {
+  font-size: 64px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec1-amogrow div .upAmogrow-Sec1 div {
+  width: 290px;
+  height: 97px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+main #sec1-amogrow div .upAmogrow-Sec1 div p {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec1-amogrow div .upAmogrow-Sec1 div span {
+  width: 290px;
+  height: 70px;
+  background-color: #1b8b44;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+main #sec1-amogrow div .upAmogrow-Sec1 div span p {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec2-amogrow {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+main #sec2-amogrow div {
+  width: 1000px;
+  height: 650px;
+}
+
+main #sec2-amogrow div img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+main #sec3-amogrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #ebfde9;
+}
+
+main #sec3-amogrow div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+  gap: 40px;
+}
+
+main #sec3-amogrow div .textSec3-amogrow {
+  width: 509px;
+  height: 437px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+
+main #sec3-amogrow div .textSec3-amogrow .createdItem {
+  display: none;
+}
+
+main #sec3-amogrow div .textSec3-amogrow h1 {
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+  color: #198b44;
+}
+
+main #sec3-amogrow div .textSec3-amogrow h6 {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  color: #000000;
+}
+
+main #sec3-amogrow div .textSec3-amogrow p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  line-height: 26px;
+  width: 500px;
+  color: #616161;
+}
+
+main #sec3-amogrow div .videoSec3-Amogrow {
+  width: 609px;
+  height: 437px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+main #sec3-amogrow div .videoSec3-Amogrow i {
+  position: absolute;
+  font-size: 65px;
+  color: white;
+}
+
+main #sec3-amogrow div .videoSec3-Amogrow .black {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.631372549);
+  border-radius: 20px;
+}
+
+main #sec3-amogrow div .videoSec3-Amogrow img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+main #sec4-amogrow {
+  padding: 100px 0px;
+}
+
+main #sec4-amogrow div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main #sec4-amogrow div .createdItem {
+  display: none;
+}
+
+main #sec4-amogrow div .tree-AmoGrow {
+  width: 600px;
+  height: 482px;
+}
+
+main #sec4-amogrow div .tree-AmoGrow img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+main #sec4-amogrow div .besidesTree {
+  display: flex;
+  flex-direction: column;
+  width: 546px;
+  align-items: start;
+  gap: 50px;
+}
+
+main #sec4-amogrow div .besidesTree .createdItem {
+  display: none;
+}
+
+main #sec4-amogrow div .besidesTree .AdvantagesTree ul {
+  display: flex;
+  padding-left: 30px;
+  gap: 20px;
+  flex-direction: column;
+}
+
+main #sec4-amogrow div .besidesTree .AdvantagesTree ul li {
+  font-family: "League Spartan", sans-serif;
+  font-size: 21px;
+  color: #616161;
+  font-weight: 400;
+}
+
+main #sec4-amogrow div .besidesTree .AdvantagesTree h1 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "League Spartan", sans-serif;
+  color: #616161;
+}
+
+main #sec4-amogrow div .besidesTree span {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+main #sec4-amogrow div .besidesTree span h1 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+main #sec4-amogrow div .besidesTree span p {
+  font-size: 21px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  color: #616161;
+  line-height: 28px;
+}
+
+main #sec5-amogrow {
+  padding: 100px 0px;
+}
+
+main #sec5-amogrow div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+main #sec5-amogrow div .createdItem {
+  display: none;
+}
+
+main #sec5-amogrow div span {
+  width: 1200px;
+  height: 757px;
+}
+
+main #sec5-amogrow div span img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+main #sec5-amogrow div h1 {
+  font-size: 64px;
+  text-transform: uppercase;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+}
+
+main #sec6-amogrow {
+  padding: 100px 0px;
+}
+
+main #sec6-amogrow div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebfde9;
+}
+
+main #sec6-amogrow div .footerFirstRoW {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+main #sec6-amogrow div .footerFirstRoW img {
+  width: 120px;
+  height: 60px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+main #sec6-amogrow div .footer-about {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .numb {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .numb p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  color: #616161;
+  line-height: 25px;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .numb span {
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .numb span p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .numb span .circleBesidesNumber {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: #198b44;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .row h1 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .row span {
+  display: flex;
+  gap: 20px;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .row span p {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .row span i {
+  transform: rotate(90deg);
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .socials h1 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .socials span {
+  display: flex;
+  gap: 10px;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .socials span div {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: #198b44;
+}
+
+main #sec6-amogrow div .footer-about .footeSecondRoW .socials span div i {
+  font-size: 20px;
+  color: white;
+}
+
+main #sec6-amogrow div .footer-about .FooterThirdRow {
+  display: flex;
+  padding: 30px 0px;
+  width: 1200px;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  color: #616161;
+}
+
+/* Responsive starts */
+@media (max-width: 1200px) {
+  header nav {
+    width: 1000px;
+  }
+
+  header nav ul {
+    width: 550px;
+  }
+
+  main #home div {
+    width: 1000px;
+  }
+
+  main #home div .home-down .firstRow-down-home img {
+    width: 600px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  main #home div .upperText-ofPic-home {
+    width: 1000px;
+    font-size: 41px;
+  }
+
+  main #home div .upperText-ofPic-home .up-text-upperText img {
+    width: 280px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  main #sec1-aboutUs {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main #sec1-aboutUs div {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main #sec1-aboutUs div .footer-about {
+    width: 1000px;
+  }
+
+  main #sec1-aboutUs div .footer-about .FooterThirdRow {
+    gap: 400px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW {
+    width: 1000px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW span {
+    gap: 10px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq {
+    width: 596px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq span {
+    gap: 21px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq span span p {
+    font-size: 20px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq span span span {
+    width: 110px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq .handShake {
+    width: 70px;
+    width: 70px;
+    gap: 0px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .amo-komanda {
+    width: 378px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .amo-komanda .people-amoKomanda {
+    margin-left: 250px;
+    margin-bottom: 20px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 img {
+    width: 980px;
+  }
+
+  main #sec1-aboutUs div .downHistory-sec1 {
+    width: 1000px;
+  }
+
+  main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 .down-orange {
+    margin-top: 87px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs {
+    width: 1000px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle {
+    width: 1000px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle .boxes-middle {
+    width: 290px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs {
+    width: 1000px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start .boxes-start {
+    width: 290px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start .boxes-start .box {
+    width: 290px;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow {
+    width: 400px;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow h1 {
+    font-size: 50px;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow h5 {
+    font-size: 28px;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow p {
+    font-size: 16px;
+    width: 400px;
+  }
+
+  main #sec3-amogrow div .videoSec3-Amogrow {
+    width: 560px;
+  }
+
+  main #sec4-amogrow div .tree-AmoGrow {
+    width: 500px;
+  }
+
+  main #sec4-amogrow div .besidesTree {
+    width: 400px;
+  }
+
+  main #sec4-amogrow div .besidesTree .AdvantagesTree h1 {
+    font-size: 20px;
+  }
+
+  main #sec4-amogrow div .besidesTree .AdvantagesTree h1 ul {
+    font-size: 18px;
+  }
+
+  main #sec4-amogrow div .besidesTree span h1 {
+    font-size: 40px;
+  }
+
+  main #sec4-amogrow div .besidesTree span p {
+    font-size: 18px;
+  }
+
+  main #sec5-amogrow div {
+    gap: 50px;
+  }
+
+  main #sec5-amogrow div span {
+    width: 1000px;
+  }
+
+  main #sec5-amogrow div span img {
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  main #sec6-amogrow div .footer-about .footerFirstRoW {
+    width: 1000px;
+  }
+
+  main #sec6-amogrow div .footer-about .footeSecondRoW {
+    width: 1000px;
+  }
+
+  main #sec6-amogrow div .footer-about .FooterThirdRow {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1000px) {
+  header nav {
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 40px;
+  }
+
+  header nav .burger-menu {
+    display: flex;
+  }
+
+  header nav .contact-head {
+    display: none;
+  }
+
+  header nav ul {
+    display: none;
+    width: 0px;
+  }
+
+  main #home {
+    position: relative;
+  }
+
+  main #home div {
+    width: 770px;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  main #home div .home-down .firstRow-down-home {
+    width: 100%;
+  }
+
+  main #home div .home-down .firstRow-down-home img {
+    height: 200px;
+    position: absolute;
+    top: 0;
+    width: 300px;
+  }
+
+  main #home div .home-down .secondRow-down-home {
+    position: relative;
+    bottom: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 770px;
+  }
+
+  main #home div .home-down .secondRow-down-home img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 330px;
+  }
+
+  main #home div .upperText-ofPic-home {
+    width: 770px;
+    gap: 0px;
+    height: 35vh;
+    margin-top: 540px;
+    flex-wrap: wrap;
+    font-size: 35px;
+  }
+
+  main #home div .upperText-ofPic-home .Sustainable {
+    width: 40vw;
+    padding-left: 10px;
+  }
+
+  main #home div .upperText-ofPic-home .Cultivating {
+    width: 45vw;
+    text-align: end;
+  }
+
+  main #home div .upperText-ofPic-home .down-text-upperText {
+    padding: 0px;
+    width: 770px;
+    font-size: 33px;
+  }
+
+  main #home div .upperText-ofPic-home .up-text-upperText {
+    width: 770px;
+    gap: 0px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  main #home div .upperText-ofPic-home .up-text-upperText img {
+    position: absolute;
+    top: 525px;
+    height: 250px;
+    width: 330px;
+  }
+
+  main #home div .home-down {
+    flex-direction: column;
+  }
+
+  main #home div .home-down .firstRow-down-home img {
+    position: absolute;
+    width: 740px;
+    height: 500px;
+  }
+
+  main #sec1-aboutUs div {
+    width: 770px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs p {
+    font-size: 21px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start .boxes-start {
+    width: 250px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start .boxes-start .box {
+    width: 250px;
+    font-size: 40px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs {
+    width: 770px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle {
+    width: 770px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle .boxes-middle {
+    width: 250px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .text-middle {
+    width: 700px;
+  }
+
+  main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 span {
+    width: 342px;
+    height: 123px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq {
+    width: 428px;
+    padding-left: 30px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq h2 {
+    font-size: 33px;
+    padding-top: 40px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq span {
+    gap: 24px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq span span p {
+    font-size: 18px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq span span img {
+    width: 36px;
+    height: 36px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq span span span {
+    width: 80px;
+    gap: 18px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq .handShake {
+    margin: 80px 10px;
+    height: 60px;
+    width: 60px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .amo-komanda {
+    width: 300px;
+    gap: 50px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .amo-komanda .people-amoKomanda {
+    margin-left: 180px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .amo-komanda span .flags p {
+    font-size: 25px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .amo-komanda span h3 {
+    font-size: 31px;
+    padding-top: 0px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 img {
+    width: 740px;
+  }
+
+  main #sec1-aboutUs div .footer-about {
+    width: 770px;
+  }
+
+  main #sec1-aboutUs div .footer-about .FooterThirdRow {
+    gap: 200px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW {
+    width: 770px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW .socials {
+    width: 160px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW .numb {
+    padding-left: 0px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW .numb p {
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW span {
+    width: 178px;
+  }
+
+  main #sec1-amogrow div {
+    width: 770px;
+  }
+
+  main #sec2-amogrow div {
+    width: 770px;
+  }
+
+  main #sec2-amogrow div img {
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  main #sec3-amogrow div {
+    gap: 40px;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow {
+    width: 300px;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow p {
+    width: 300px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow h6 {
+    font-size: 25px;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow h1 {
+    font-size: 35px;
+  }
+
+  main #sec3-amogrow div .videoSec3-Amogrow {
+    width: 430px;
+    height: 337px;
+  }
+
+  main #sec4-amogrow div {
+    gap: 20px;
+  }
+
+  main #sec4-amogrow div .tree-AmoGrow {
+    width: 400px;
+  }
+
+  main #sec4-amogrow div .besidesTree {
+    width: 330px;
+  }
+
+  main #sec4-amogrow div .besidesTree .AdvantagesTree h1 {
+    font-size: 18px;
+  }
+
+  main #sec4-amogrow div .besidesTree .AdvantagesTree ul li {
+    font-size: 16px;
+  }
+
+  main #sec4-amogrow div .besidesTree span p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  main #sec5-amogrow div {
+    gap: 0px;
+  }
+
+  main #sec5-amogrow div span {
+    width: 770px;
+  }
+
+  main #sec6-amogrow div .footer-about .footerFirstRoW {
+    width: 770px;
+  }
+
+  main #sec6-amogrow div .footer-about .footeSecondRoW {
+    width: 770px;
+  }
+
+  main #sec6-amogrow div .footer-about .FooterThirdRow {
+    width: 770px;
+  }
+}
+
+@media (max-width: 770px) {
+  main #home div {
+    width: 590px;
+  }
+
+  main #home div .home-down .secondRow-down-home {
+    width: 590px;
+    justify-content: start;
+    padding-left: 30px;
+  }
+
+  main #home div .home-down .secondRow-down-home img {
+    width: 250px;
+    height: 100px;
+  }
+
+  main #home div .home-down .firstRow-down-home img {
+    width: 540px;
+  }
+
+  main #home div .upperText-ofPic-home {
+    width: 590px;
+    height: 400px;
+  }
+
+  main #home div .upperText-ofPic-home .down-text-upperText {
+    width: 590px;
+    font-size: 25px;
+  }
+
+  main #home div .upperText-ofPic-home .up-text-upperText {
+    width: 590px;
+    font-size: 30px;
+  }
+
+  main #sec1-aboutUs div {
+    width: 590px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .aboutUs-start span {
+    width: 60px;
+    height: 60px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs p {
+    font-size: 18px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start .boxes-start {
+    width: 180px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start .boxes-start h5 {
+    font-size: 17px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start .boxes-start .box {
+    width: 185px;
+    height: 60px;
+    font-size: 22px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs {
+    width: 590px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle {
+    width: 590px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle .boxes-middle {
+    width: 190px;
+    height: 85px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle .boxes-middle h3 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .text-middle {
+    width: 570px;
+    line-height: 27px;
+    font-size: 17px;
+  }
+
+  main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 .down-orange {
+    margin-top: 68px;
+  }
+
+  main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 span {
+    width: 250px;
+    height: 100px;
+  }
+
+  main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 span h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 img {
+    width: 570px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .amo-komanda {
+    width: 220px;
+    height: 450px;
+    padding: 10px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .amo-komanda .people-amoKomanda {
+    margin-left: 120px;
+    height: 50px;
+    width: 50px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .amo-komanda span h3 {
+    font-size: 23px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .amo-komanda span .flags p {
+    font-size: 22px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .amo-komanda span .flags img {
+    width: 40px;
+    height: 40px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq {
+    width: 350px;
+    height: 450px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq h2 {
+    font-size: 24px;
+    padding-top: 20px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq .handShake {
+    margin: 70px 12px;
+    height: 50px;
+    width: 50px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq .handShake .fa-handshake {
+    font-size: 28px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq .handShake .fa-arrow-right-arrow-left {
+    font-size: 18px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq span span p {
+    font-size: 14px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq span span span {
+    width: 60px;
+    gap: 10px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq span span img {
+    width: 26px;
+    height: 26px;
+  }
+
+  main #sec1-aboutUs div .footer-about {
+    width: 590px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footerFirstRoW {
+    padding-left: 50px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW {
+    width: 590px;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 50px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW .row {
+    width: 200px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW .numb {
+    width: 590px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW span {
+    width: 270px;
+  }
+
+  main #sec1-aboutUs div .footer-about .FooterThirdRow {
+    flex-direction: column;
+    font-size: 18px;
+    gap: 10px;
+    align-items: start;
+    padding-left: 50px;
+  }
+
+  main #sec1-amogrow {
+    padding: 0px;
+  }
+
+  main #sec1-amogrow div {
+    width: 590px;
+  }
+
+  main #sec1-amogrow div .middleSec1-amoGrow p {
+    width: 500px;
+  }
+
+  main #sec1-amogrow div .middleSec1-amoGrow h1 {
+    font-size: 40px;
+  }
+
+  main #sec1-amogrow div .middleSec1-amoGrow .roundAmogrow {
+    display: none;
+  }
+
+  main #sec2-amogrow div {
+    width: 590px;
+    height: 400px;
+  }
+
+  main #sec3-amogrow div {
+    flex-direction: column-reverse;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main #sec3-amogrow div .videoSec3-Amogrow {
+    width: 570px;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow {
+    width: 570px;
+    align-items: start;
+    justify-content: center;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow .createdItem {
+    display: flex;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow h6 {
+    line-height: 30px;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow .removedItem {
+    display: none;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow p {
+    width: 570px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  main #sec3-amogrow div .textSec3-amogrow h1 {
+    font-size: 50px;
+  }
+
+  main #sec4-amogrow div {
+    flex-direction: column;
+  }
+
+  main #sec4-amogrow div .createdItem {
+    width: 590px;
+  }
+
+  main #sec4-amogrow div .createdItem h1 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "League Spartan", sans-serif;
+  }
+
+  main #sec4-amogrow div .createdItem p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
+    font-family: "League Spartan", sans-serif;
+    color: #616161;
+  }
+
+  main #sec4-amogrow div .besidesTree {
+    width: 590px;
+  }
+
+  main #sec4-amogrow div .besidesTree .createdItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  main #sec4-amogrow div .besidesTree .removedItem {
+    display: none;
+  }
+
+  main #sec4-amogrow div .besidesTree .AdvantagesTree {
+    display: none;
+  }
+
+  main #sec5-amogrow {
+    padding: 0px;
+  }
+
+  main #sec5-amogrow div .removedItem {
+    display: none;
+  }
+
+  main #sec5-amogrow div .createdItem {
+    width: 590px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100px;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  main #sec5-amogrow div .createdItem h1 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "League Spartan", sans-serif;
+  }
+
+  main #sec5-amogrow div .createdItem p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 400px;
+    text-align: center;
+    line-height: 25px;
+    font-family: "League Spartan", sans-serif;
+  }
+
+  main #sec5-amogrow div span {
+    width: 590px;
+    height: 400px;
+  }
+
+  main #sec6-amogrow div .footer-about {
+    align-items: start;
+    display: flex;
+  }
+
+  main #sec6-amogrow div .footer-about .footerFirstRoW {
+    width: 200px;
+    padding-left: 40px;
+  }
+
+  main #sec6-amogrow div .footer-about .FooterThirdRow {
+    width: 590px;
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    padding-left: 40px;
+    gap: 10px;
+  }
+
+  main #sec6-amogrow div .footer-about .footeSecondRoW {
+    width: 590px;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+    padding-left: 50px;
+  }
+
+  main #sec6-amogrow div .footer-about .footeSecondRoW .numb {
+    width: 340px;
+  }
+
+  main #sec6-amogrow div .footer-about .footeSecondRoW .row {
+    width: 240px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 590px) {
+  main #home div {
+    width: 340px;
+  }
+
+  main #home div .home-down .secondRow-down-home {
+    width: 340px;
+    padding: 0;
+    gap: 10px;
+  }
+
+  main #home div .home-down .secondRow-down-home img {
+    width: 160px;
+    height: 74px;
+  }
+
+  main #home div .upperText-ofPic-home {
+    width: 340px;
+    height: 200px;
+  }
+
+  main #home div .upperText-ofPic-home .down-text-upperText {
+    width: 340px;
+    font-size: 14px;
+  }
+
+  main #home div .upperText-ofPic-home .up-text-upperText {
+    width: 340px;
+    font-size: 17px;
+  }
+
+  main #home div .upperText-ofPic-home .up-text-upperText img {
+    width: 179px;
+    height: 38px;
+    top: 545px;
+  }
+
+  main #home div .home-down .firstRow-down-home img {
+    width: 340px;
+  }
+
+  main #sec1-aboutUs div {
+    width: 340px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs {
+    width: 340px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .aboutUs-middle h1 {
+    font-size: 32px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle {
+    width: 340px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle .boxes-middle {
+    width: 160px;
+    height: 70px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle .boxes-middle .createdResponsiveAbout {
+    display: flex;
+    font-size: 13.4px;
+    line-height: 15px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .mom-boxes-middle .boxes-middle .deleted-item-About {
+    display: none !important;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .text-middle {
+    width: 340px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .text-middle .AddedText-about {
+    display: flex;
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  main #sec1-aboutUs div .middle-sec1-aboutUs .text-middle .removedText-about {
+    display: none !important;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start {
+    width: 340px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start .boxes-start {
+    width: 158px;
+    gap: 5px;
+    height: 90px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .mom-boxes-start .boxes-start .box {
+    width: 158px;
+    height: 48px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .aboutUs-start {
+    flex-direction: column;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .aboutUs-start h1 {
+    font-size: 32px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .responsiveText1-sec1-aboutUs {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .responsiveAbout-start {
+    display: flex !important;
+    height: 160px;
+    width: 340px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .responsiveAbout-start .black {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.4705882353);
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .responsiveAbout-start img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .responsiveAbout-start .fa-play {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.956);
+    font-size: 33px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs p {
+    display: none;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .responsiveText2-sec1-aboutUs {
+    display: flex !important;
+    color: #616161;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "League Spartan", sans-serif;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  main #sec1-aboutUs div .start-sec1-aboutUs .aboutUs-start span {
+    display: none;
+  }
+
+  main #sec1-aboutUs div .downHistory-sec1 {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 {
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 170px;
+    justify-content: center;
+  }
+
+  main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 span {
+    border-radius: 15px;
+    width: 160px;
+    background-color: #ebfde9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80px;
+    gap: 7px;
+  }
+
+  main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 span .removedText-about2 {
+    display: none;
+  }
+
+  main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 span .createdH2Resonsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #198b44;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "League Spartan", sans-serif;
+  }
+
+  main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 span .createdP-Resonsive {
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    font-family: "League Spartan", sans-serif;
+  }
+
+  main #sec1-aboutUs div .downHistory-sec1 .orange-boxes-sec1 .down-orange {
+    transform: rotate(0deg);
+    margin-top: 0px;
+    position: static;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries {
+    flex-direction: column;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq {
+    width: 340px;
+    padding-left: 10px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq .handShake {
+    border-radius: 200%;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .emekdasliq span {
+    width: 340px;
+    border-radius: 20px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .amo-komanda {
+    width: 340px;
+    border-radius: 20px;
+    height: 400px;
+    gap: 0px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .countries .amo-komanda .people-amoKomanda {
+    margin-left: 220px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .removedText-about2 {
+    display: none;
+  }
+
+  main #sec1-aboutUs div .map-sec1 .addedH1 {
+    display: flex;
+    font-size: 32px;
+  }
+
+  main #sec1-aboutUs div .map-sec1 img {
+    width: 330px;
+  }
+
+  main #sec1-aboutUs div .footer-about {
+    width: 340px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW {
+    width: 340px;
+    padding-left: 20px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW .row {
+    width: 130px;
+    gap: 10px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW .row h1 {
+    font-size: 17px;
+    padding-bottom: 10px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footeSecondRoW .row span p {
+    font-size: 12px;
+  }
+
+  main #sec1-aboutUs div .footer-about .footerFirstRoW {
+    padding-left: 20px;
+  }
+
+  main #sec1-aboutUs div .footer-about .FooterThirdRow {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 340px) {
+  main #home div {
+    width: 100%;
+    height: auto;
+  }
+
+  main #home div .upperText-ofPic-home {
+    width: 100%;
+    margin-top: 400px;
+  }
+
+  main #home div .upperText-ofPic-home .down-text-upperText {
+    width: 100%;
+    font-size: 4vw;
+  }
+
+  main #home div .upperText-ofPic-home .up-text-upperText {
+    width: 100%;
+    font-size: 5vw;
+  }
+
+  main #home div .upperText-ofPic-home .up-text-upperText img {
+    top: 435px;
+  }
+
+  main #home div .home-down .secondRow-down-home {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  main #home div .home-down .secondRow-down-home img {
+    width: 40vw;
+    height: 35vw;
+  }
+
+  main #home div .home-down .firstRow-down-home img {
+    width: 100%;
+    height: 140vw;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
