@@ -1,40 +1,41 @@
-const btnCircle = document.querySelector(".circle");
-const main = document.querySelector("main");
-const header = document.querySelector("header");
+/* DO NOT DESTROY */
 
-let storage = localStorage.getItem("night");
 
-if (storage) {
+const menu = document.querySelector(".menu");
 
-    btnCircle.style.left = "50px";
-    main.style.backgroundColor = " rgba(0, 0, 128, 0.586)";
-    header.style.backgroundColor = " rgba(0, 0, 128, 0.586)";
-}
+
+const burgerMenu = document.querySelector(".burger-menu");
 
 
 
-//   left:50px;
 
-// console.log(btnCircle.getAttribute("style"));
-
-// console.log(main.style.backgroundColor = "navy");
+burgerMenu.addEventListener("click", () => {
 
 
-// console.log(main.hasAttribute("class"));
+    console.log(menu.getAttribute("style"));
+
+    if (menu.style.left == "-100%") {
+        menu.style.left = "0px";
 
 
-
-btnCircle.addEventListener("click", () => {
-
-    if (btnCircle.style.left == "0px") {
-        btnCircle.style.left = "50px";
-        main.style.backgroundColor = " rgba(0, 0, 128, 0.586)";
-        header.style.backgroundColor = " rgba(0, 0, 128, 0.586)";
-        localStorage.setItem("night", "gece");
     } else {
-        btnCircle.style.left = "0px";
-        main.style.backgroundColor = "white";
-        header.style.backgroundColor = "white";
-        localStorage.removeItem("night")
+        menu.style.left = "-100%";
+        console.log("salam");
+
     }
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
