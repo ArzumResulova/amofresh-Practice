@@ -336,6 +336,74 @@ main {
         }
     }
 
+    #MomForm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(247, 247, 255);
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 300px;
+            align-items: center;
+            height: 170px;
+            // height: 300px;
+            border-radius: 10px;
+            padding: 10px 40px;
+            box-shadow: 1px 1px 40px rgb(0, 0, 255);
+            background-color: rgba(2, 2, 249, 0.895);
+
+            button {
+                display: flex;
+                height: 40px;
+                width: 90px;
+                border: none;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(45, 45, 255);
+                box-shadow: 1px 1px 10px rgb(255, 255, 255);
+                color: white;
+                flex-direction: row-reverse;
+                // gap: 20px;
+
+                span {
+                    height: 15px;
+                    width: 15px;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: contain;
+                        border-radius: 100%;
+                        display: none;
+                    }
+                }
+            }
+            span {
+                label {
+                    display: flex;
+                    width: 300px;
+                    flex-direction: row-reverse;
+                    align-items: center;
+                    color: white;
+
+                    // gap: 40px;
+                    justify-content: space-between;
+                    padding: 0px 10px;
+                    input {
+                        outline: none;
+                        padding: 1px 5px;
+                    }
+                }
+            }
+        }
+    }
+
     #sec1-aboutUs {
         display: flex;
         align-items: center;
@@ -1140,7 +1208,7 @@ main {
     }
 
     #sec6-amogrow {
-        padding:  0px;
+        padding: 0px;
         div {
             width: 100%;
             display: flex;
@@ -1486,6 +1554,197 @@ main {
             }
         }
     }
+
+    #sec2-Contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0px;
+        div {
+            width: 1200px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 526px;
+            border-radius: 20px;
+            background-color: #ebfde9;
+            .MapContact {
+                width: 748px;
+                height: 526px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 20px;
+                }
+            }
+            span {
+                width: 432px;
+                // background-color: palevioletred;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                // height: 100px;
+                // background-color: #ed7725;
+                gap: 30px;
+                padding-left: 5px;
+                span {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    // color: palevioletred;
+                    span {
+                        font-size: 24px;
+                        font-weight: 500;
+                        font-family: "League Spartan", sans-serif;
+                    }
+                }
+                .downconta {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+                    position: relative;
+                    top: -50px;
+                    //    color: red;
+                    word-spacing: 5px;
+
+                    h1 {
+                        font-size: 64px;
+                        font-weight: 500;
+                        font-family: "League Spartan", sans-serif;
+                        // padding-bottom: 200px;
+                        color: #1b8b44;
+                    }
+                    span {
+                        font-size: 24px;
+                        display: flex;
+                        flex-direction: column;
+                        font-weight: 350;
+                        font-family: "League Spartan", sans-serif;
+                        // padding-bottom:20px ;
+                        gap: 6px;
+                        word-spacing: 5px;
+                    }
+                }
+                .createdItem {
+                    display: none;
+                }
+                .roundConta {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: start;
+                    position: relative;
+                    top: 40px;
+                    h5 {
+                        font-size: 24px;
+                        font-weight: 500;
+                        font-family: "League Spartan", sans-serif;
+                    }
+                    span {
+                        display: flex;
+                        flex-direction: row-reverse;
+                        gap: 5px;
+                        align-items: start;
+                        justify-content: start;
+
+                        span {
+                            height: 30px;
+                            width: 30px;
+                            border: 1px solid;
+                            border-radius: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #sec3-contact {
+        display: flex;
+        padding: 100px 0px;
+        align-items: center;
+        justify-content: center;
+        div {
+            width: 1200px;
+            div {
+                height: 455px;
+                width: 1200px;
+                background-image: url(./assets/Contact-downimg.png);
+                background-repeat: no-repeat;
+                border-radius: 30px;
+                background-position: center;
+                background-size: cover;
+                background-color: #ebfde9;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+
+                h4 {
+                    padding-top: 33px;
+                    font-size: 35px;
+                    font-weight: 400;
+                    font-family: "League Spartan", sans-serif;
+                }
+                h1 {
+                    font-size: 70px;
+                    font-weight: 500;
+                    word-spacing: 5px;
+                    // width: 1100px
+                    font-family: "League Spartan", sans-serif;
+                    text-align: center;
+                }
+                p {
+                    font-size: 20px;
+                    font-weight: 400;
+                    width: 690px;
+                    text-align: center;
+                    font-family: "League Spartan", sans-serif;
+                    line-height: 30px;
+                    color: #616161;
+                }
+                span {
+                    padding-bottom: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 1200px;
+                    label {
+                        display: flex;
+                        flex-direction: row;
+
+                        button {
+                            width: 200px;
+                            border: none;
+                            background-color: #198b44;
+                            border-radius: 40px;
+                            position: relative;
+                            right: 60px;
+                            color: white;
+                            font-size: 22px;
+                            letter-spacing: 1px;
+                            font-size: 350;
+                            transform: translate(50px, 10px);
+                        }
+
+                        input {
+                            width: 600px;
+                            padding: 27px 0px;
+                            border: none;
+                            outline: none;
+                            border-radius: 40px;
+                            transform: translate(50px, 10px);
+                            &::placeholder {
+                                font-size: 20px;
+                                padding-left: 40px;
+                                color: #231f20;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 /* Responsive starts */
@@ -1757,6 +2016,28 @@ main {
                     }
                     .Row1Blog2 {
                         width: 1000px;
+                    }
+                }
+            }
+        }
+
+        #sec2-Contact {
+            div {
+                width: 1000px;
+            }
+        }
+
+        #sec3-contact {
+            div {
+                width: 1000px;
+                div {
+                    width: 1000px;
+                    background-size: contain;
+                    span {
+                        width: 1000px;
+                    }
+                    h1 {
+                        font-size: 64px;
                     }
                 }
             }
@@ -2187,6 +2468,52 @@ main {
                 }
             }
         }
+        #sec2-Contact {
+            div {
+                width: 770px;
+                height: 480px;
+                .MapContact {
+                    height: 480px;
+                    // width: ;
+                }
+                span {
+                    span {
+                        span {
+                            font-size: 17px;
+                        }
+                    }
+                }
+                span {
+                    width: 300px;
+                    .downconta {
+                        span {
+                            font-size: 17px;
+                            // width: 660px;
+                        }
+                    }
+                }
+            }
+        }
+
+        #sec3-contact {
+            div {
+                width: 770px;
+                div {
+                    width: 770px;
+                    span {
+                        width: 770px;
+                        label {
+                            input {
+                                width: 500px;
+                            }
+                        }
+                    }
+                    h1 {
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -2612,6 +2939,83 @@ main {
                                 }
                             }
                         }
+                    }
+                }
+            }
+        }
+        #sec2-Contact {
+            div {
+                width: 590px;
+                height: 400px;
+                .MapContact {
+                    height: 400px;
+                    width: 350;
+                    // width: ;
+                }
+                span {
+                    gap: 0px;
+
+                    span {
+                        span {
+                            font-size: 17px;
+                        }
+                    }
+                }
+                span {
+                    width: 200px;
+                    // color: red;
+                    .downconta {
+                        span {
+                            font-size: 14px;
+                            // width: 660px;
+                        }
+                        h1 {
+                            font-size: 40px;
+                        }
+                    }
+                    .roundConta {
+                        span {
+                            span {
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                        h5 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+        #sec3-contact {
+            div {
+                width: 590px;
+                height: 480px;
+                div {
+                    width: 590px;
+                    height: 400px;
+                    span {
+                        width: 590px;
+                        label {
+                            input {
+                                width: 300px;
+                                padding: 20px 0px;
+                            }
+                            button {
+                                width: 120px;
+                                font-size: 17px;
+                            }
+                        }
+                    }
+                    h1 {
+                        font-size: 35px;
+                    }
+                    p {
+                        width: 550px;
+                        font-size: 18px;
+                    }
+                    h4 {
+                        font-size: 25px;
                     }
                 }
             }
@@ -3114,6 +3518,127 @@ main {
                     }
                     .Row3Blog2 {
                         display: none;
+                    }
+                }
+            }
+        }
+        #sec2-Contact {
+            padding: 50px 0px;
+            div {
+                width: 340px;
+                flex-direction: column;
+                height: 540px;
+                gap: 20px;
+                border-radius: 25px;
+                justify-content: center;
+                align-items: start;
+                .MapContact {
+                    height: 234px;
+                    width: 340px;
+                    transform: translate(-3px, 0px);
+
+                    // width: ;
+                }
+
+                span {
+                    width: 200px;
+                    .contactinfo {
+                        display: none;
+                    }
+
+                    .downconta {
+                        display: none;
+                        span {
+                            font-size: 14px;
+                        }
+                        h1 {
+                            font-size: 40px;
+                        }
+                    }
+                    .roundConta {
+                        padding-left: 20px;
+                        position: static;
+                        padding-bottom: 25px;
+                        span {
+                            span {
+                                width: 20px;
+                                height: 20px;
+                            }
+                        }
+                        h5 {
+                            font-size: 20px;
+                        }
+                    }
+                    .createdItem {
+                        height: 240px;
+                        width: fit-content;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        align-items: start;
+                        justify-content: start;
+                        padding-left: 20px;
+                        // background-color: #ed7725;
+                        h1 {
+                            font-size: 64px;
+                            font-weight: 500;
+                            color: #198b44;
+                            font-family: "League Spartan", sans-serif;
+                        }
+                        p {
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: #231f20;
+                            font-family: "League Spartan", sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+        #sec3-contact {
+            padding: 70px 0px;
+            div {
+                width: 340px;
+                height: 274px;
+                div {
+                    width: 340px;
+                    height: 274px;
+                    background-size: cover;
+                    span {
+                        width: 340px;
+                        label {
+                            input {
+                                width: 240px;
+                               
+                                // border-radius: 15px;
+                                padding: 7px 0px;
+                                transform: translate(40px, 10px);
+                                // margin-left: 65px;
+                                &::placeholder{
+                                    font-size: 15px;
+                                }
+                            }
+                            button {
+                                width: 80px;
+                                font-size: 12px;
+                                transform: translate(40px, 10px);
+                            }
+                        }
+                    }
+                    h1 {
+                        font-size: 20px;
+                        word-spacing: 0;
+                        line-height: 20px;
+                    }
+                    p {
+                        width: 300px;
+                        font-size: 12px;
+                        line-height: 17px;
+                    }
+                    h4 {
+                        font-size: 20px;
+                        padding-top: 25px;
                     }
                 }
             }
