@@ -165,7 +165,7 @@ formLogin?.addEventListener("submit", (e) => {
         gif.style.display = "flex";
         setTimeout(() => {
 
-            location.href = "../pages/home.html"
+            location.href = "home.html"
         }, 2000)
 
     } else if (AllInp.name == "") {
