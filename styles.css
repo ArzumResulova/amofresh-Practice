@@ -64,6 +64,8 @@ header nav ul {
 }
 header nav ul .companies-li:hover .drop-down {
   display: flex;
+  background-color: #ebfde9;
+  border-radius: 20px;
 }
 header nav ul .lang {
   display: flex;
@@ -92,7 +94,6 @@ header nav ul li .drop-down a:hover .fa-angle-right {
   display: flex;
 }
 header nav ul li .drop-down a {
-  border: 1px solid black;
   width: 174px;
   height: 30px;
   display: flex;
@@ -1427,12 +1428,16 @@ main #sec2-Contact div .MapContact {
   width: 748px;
   height: 526px;
 }
-main #sec2-Contact div .MapContact img {
+main #sec2-Contact div .MapContact .mapConta {
+  width: 748px;
+  height: 526px;
+}
+main #sec2-Contact div .MapContact .mapConta iframe {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 20px;
+  border-radius: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 main #sec2-Contact div span {
   width: 432px;
@@ -1590,6 +1595,182 @@ main #sec3-contact div div span label input::placeholder {
   font-size: 20px;
   padding-left: 40px;
   color: #231f20;
+}
+main #sec2-Amotrade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+}
+main #sec2-Amotrade div {
+  width: 1200px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+main #sec2-Amotrade div .createdItem {
+  display: none;
+}
+main #sec2-Amotrade div .createdText {
+  display: none;
+}
+main #sec2-Amotrade div .amoTradeR {
+  position: relative;
+  width: 1200px;
+  height: 590px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #sec2-Amotrade div .amoTradeR .black {
+  height: 100%;
+  border-radius: 20px;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.566);
+}
+main #sec2-Amotrade div .amoTradeR i {
+  position: absolute;
+  font-size: 60px;
+  color: white;
+}
+main #sec2-Amotrade div .amoTradeR img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #sec3-Amotrade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+}
+main #sec3-Amotrade div {
+  width: 1200px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+main #sec3-Amotrade div .imgSec3-Amotrade {
+  height: 575px;
+  width: 1200px;
+}
+main #sec3-Amotrade div .imgSec3-Amotrade img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main #sec3-Amotrade div .textdownimg-Amotrade {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+main #sec3-Amotrade div .textdownimg-Amotrade p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #616161;
+  line-height: 30px;
+  font-family: "League Spartan", sans-serif;
+}
+main #sec3-Amotrade div .textdownimg-Amotrade span {
+  font-size: 24px;
+  font-weight: 400;
+  color: #616161;
+}
+main #sec3-Amotrade div .textdownimg-Amotrade ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 50px;
+}
+main #sec3-Amotrade div .textdownimg-Amotrade ul li {
+  font-size: 24px;
+  font-weight: 400;
+  color: #616161;
+  line-height: 30px;
+}
+main #sec4-Amotrade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+}
+main #sec4-Amotrade div {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+main #sec4-Amotrade div h1 {
+  font-size: 64px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+  margin-bottom: 50px;
+}
+main #sec4-Amotrade div button {
+  background-color: #198b44;
+  border: none;
+  height: 66px;
+  width: 333px;
+  border-radius: 30px;
+  color: white;
+  font-family: "League Spartan", sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-size: 35px;
+  font-weight: 400;
+}
+main #sec4-Amotrade div span {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main #sec4-Amotrade div span .right {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  margin-right: 100px;
+}
+main #sec4-Amotrade div span .right span {
+  height: 66px;
+  width: 333px;
+  background-color: #29974f;
+  border-radius: 30px;
+  display: flex;
+  font-family: "League Spartan", sans-serif;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+  font-weight: 400;
+}
+main #sec4-Amotrade div span .left {
+  display: flex;
+  margin-left: 100px;
+  gap: 10px;
+  flex-direction: row;
+}
+main #sec4-Amotrade div span .left span {
+  height: 66px;
+  width: 333px;
+  background-color: #29974f;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 400;
 }
 
 /* Responsive starts */
@@ -1789,6 +1970,9 @@ main #sec3-contact div div span label input::placeholder {
   main #sec2-Contact div {
     width: 1000px;
   }
+  main #sec2-Contact div .MapContact .mapConta {
+    width: 550px;
+  }
   main #sec3-contact div {
     width: 1000px;
   }
@@ -1801,6 +1985,42 @@ main #sec3-contact div div span label input::placeholder {
   }
   main #sec3-contact div div h1 {
     font-size: 64px;
+  }
+  main #sec2-Amotrade div {
+    width: 1000px;
+  }
+  main #sec2-Amotrade div .amoTradeR {
+    width: 1000px;
+  }
+  main #sec3-Amotrade div {
+    width: 1000px;
+  }
+  main #sec3-Amotrade div .imgSec3-Amotrade {
+    width: 1000px;
+  }
+  main #sec3-Amotrade div .textdownimg-Amotrade {
+    width: 990px;
+  }
+  main #sec4-Amotrade div {
+    width: 1000px;
+  }
+  main #sec4-Amotrade div span {
+    width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main #sec4-Amotrade div span .right {
+    margin-right: 70px;
+  }
+  main #sec4-Amotrade div span .right span {
+    width: 250px;
+  }
+  main #sec4-Amotrade div span .left {
+    margin-left: 70px;
+  }
+  main #sec4-Amotrade div span .left span {
+    width: 250px;
   }
 }
 @media (max-width: 1000px) {
@@ -2128,6 +2348,9 @@ main #sec3-contact div div span label input::placeholder {
   main #sec2-Contact div .MapContact {
     height: 480px;
   }
+  main #sec2-Contact div .MapContact .mapConta {
+    width: 450px;
+  }
   main #sec2-Contact div span span span {
     font-size: 17px;
   }
@@ -2151,6 +2374,61 @@ main #sec3-contact div div span label input::placeholder {
   }
   main #sec3-contact div div h1 {
     font-size: 50px;
+  }
+  main #sec2-Amotrade {
+    padding: 60px 0px;
+  }
+  main #sec2-Amotrade div {
+    width: 770px;
+  }
+  main #sec2-Amotrade div .amoTradeR {
+    width: 770px;
+    height: 400px;
+  }
+  main #sec3-Amotrade {
+    padding: 60px 0px;
+  }
+  main #sec3-Amotrade div {
+    width: 770px;
+  }
+  main #sec3-Amotrade div .imgSec3-Amotrade {
+    width: 770px;
+  }
+  main #sec3-Amotrade div .textdownimg-Amotrade {
+    width: 750px;
+  }
+  main #sec4-Amotrade {
+    padding: 60px 0px;
+  }
+  main #sec4-Amotrade div {
+    width: 770px;
+  }
+  main #sec4-Amotrade div button {
+    width: 180px;
+    height: 55px;
+    font-size: 25px;
+  }
+  main #sec4-Amotrade div span {
+    width: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main #sec4-Amotrade div span .right {
+    margin-right: 65px;
+  }
+  main #sec4-Amotrade div span .right span {
+    width: 180px;
+    font-size: 24px;
+    height: 55px;
+  }
+  main #sec4-Amotrade div span .left {
+    margin-left: 65px;
+  }
+  main #sec4-Amotrade div span .left span {
+    width: 180px;
+    height: 55px;
+    font-size: 24px;
   }
 }
 @media (max-width: 770px) {
@@ -2515,7 +2793,10 @@ main #sec3-contact div div span label input::placeholder {
   }
   main #sec2-Contact div .MapContact {
     height: 400px;
-    width: 350;
+    width: 360px;
+  }
+  main #sec2-Contact div .MapContact .mapConta {
+    width: 360px;
   }
   main #sec2-Contact div span {
     gap: 0px;
@@ -2567,6 +2848,62 @@ main #sec3-contact div div span label input::placeholder {
   }
   main #sec3-contact div div h4 {
     font-size: 25px;
+  }
+  main #sec2-Amotrade {
+    padding: 50px 0px;
+  }
+  main #sec2-Amotrade div {
+    width: 590px;
+  }
+  main #sec2-Amotrade div .amoTradeR {
+    width: 590px;
+    height: 400px;
+  }
+  main #sec3-Amotrade {
+    padding: 50px 0px;
+  }
+  main #sec3-Amotrade div {
+    width: 590px;
+  }
+  main #sec3-Amotrade div .imgSec3-Amotrade {
+    width: 590px;
+    height: 400px;
+  }
+  main #sec3-Amotrade div .textdownimg-Amotrade {
+    width: 570px;
+  }
+  main #sec4-Amotrade {
+    padding: 50px 0px;
+  }
+  main #sec4-Amotrade div {
+    width: 590px;
+  }
+  main #sec4-Amotrade div button {
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+  }
+  main #sec4-Amotrade div span {
+    width: 520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main #sec4-Amotrade div span .right {
+    margin-right: 65px;
+  }
+  main #sec4-Amotrade div span .right span {
+    width: 150px;
+    font-size: 20px;
+    height: 45px;
+  }
+  main #sec4-Amotrade div span .left {
+    margin-left: 65px;
+  }
+  main #sec4-Amotrade div span .left span {
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
   }
 }
 @media (max-width: 590px) {
@@ -3007,6 +3344,9 @@ main #sec3-contact div div span label input::placeholder {
     width: 340px;
     transform: translate(-3px, 0px);
   }
+  main #sec2-Contact div .MapContact .mapConta {
+    width: 340px;
+  }
   main #sec2-Contact div span {
     width: 200px;
   }
@@ -3102,6 +3442,118 @@ main #sec3-contact div div span label input::placeholder {
   main #sec3-contact div div h4 {
     font-size: 20px;
     padding-top: 25px;
+  }
+  main #sec2-Amotrade {
+    padding: 50px 0px;
+  }
+  main #sec2-Amotrade div {
+    width: 590px;
+    flex-direction: column;
+    gap: 80px;
+  }
+  main #sec2-Amotrade div .createdText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+  }
+  main #sec2-Amotrade div .createdText h1 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #sec2-Amotrade div .createdText p {
+    width: 300px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400px;
+    font-family: "League Spartan", sans-serif;
+    color: #616161;
+    text-align: center;
+  }
+  main #sec2-Amotrade div .createdItem {
+    height: 160px;
+    width: 340px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  main #sec2-Amotrade div .createdItem .black {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.576);
+    border-radius: 20px;
+  }
+  main #sec2-Amotrade div .createdItem img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 20px;
+  }
+  main #sec2-Amotrade div .createdItem i {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+  }
+  main #sec2-Amotrade div .amoTradeR {
+    width: 590px;
+    height: 400px;
+    display: none;
+  }
+  main #sec3-Amotrade {
+    padding: 50px 0px;
+  }
+  main #sec3-Amotrade div {
+    width: 590px;
+  }
+  main #sec3-Amotrade div .imgSec3-Amotrade {
+    width: 340px;
+    height: 170px;
+  }
+  main #sec3-Amotrade div .textdownimg-Amotrade {
+    display: none;
+  }
+  main #sec4-Amotrade div {
+    width: 90vw;
+    gap: 3vw;
+  }
+  main #sec4-Amotrade div h1 {
+    font-size: 30px;
+  }
+  main #sec4-Amotrade div button {
+    width: 40vw;
+    height: 4vh;
+    font-size: 17px;
+  }
+  main #sec4-Amotrade div span {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+  }
+  main #sec4-Amotrade div span .right {
+    margin-right: 7vw;
+    width: 100%;
+    gap: 1vw;
+  }
+  main #sec4-Amotrade div span .right span {
+    width: 40vw;
+    height: 4vh;
+    font-size: 17px;
+  }
+  main #sec4-Amotrade div span .left {
+    margin-left: 7vw;
+    width: 100%;
+    gap: 1vw;
+  }
+  main #sec4-Amotrade div span .left span {
+    width: 40vw;
+    height: 4vh;
+    font-size: 17px;
   }
 }
 @media (max-width: 340px) {
