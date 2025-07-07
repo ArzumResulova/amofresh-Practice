@@ -1772,6 +1772,292 @@ main #sec4-Amotrade div span .left span {
   font-family: "League Spartan", sans-serif;
   font-weight: 400;
 }
+main #sec2-amado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+}
+main #sec2-amado div {
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+main #sec2-amado div .black {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5215686275);
+  border-radius: 20px;
+}
+main #sec2-amado div span {
+  height: 590px;
+  width: 1200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+main #sec2-amado div span i {
+  font-size: 60px;
+  color: white;
+  position: absolute;
+}
+main #sec2-amado div span img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+main #secREsponsive {
+  display: none;
+}
+main #sec3-amado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+}
+main #sec3-amado div {
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+main #sec3-amado div span {
+  display: flex;
+  gap: 20px;
+}
+main #sec3-amado div span span {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+  width: 280px;
+  height: 250px;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-top: 22px;
+  padding-right: 20px;
+  background-color: #ebfde9;
+}
+main #sec3-amado div span span h1 {
+  font-size: 64px;
+  color: black;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+main #sec3-amado div span span h6 {
+  font-size: 24px;
+  color: #616161;
+  font-weight: 600;
+  font-family: "League Spartan", sans-serif;
+}
+main #sec3-amado div span span p {
+  font-size: 16px;
+  color: #616161;
+  font-weight: 300;
+  font-family: "League Spartan", sans-serif;
+}
+main #sec3-amado div .createdResponsive {
+  display: none;
+}
+main #sec4-amado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+}
+main #sec4-amado div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  flex-direction: column;
+  gap: 40px;
+}
+main #sec4-amado div .createdITEM {
+  display: none;
+}
+main #sec4-amado div span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+main #sec4-amado div span .pic1AMODO {
+  width: 590px;
+  height: 456px;
+}
+main #sec4-amado div span .pic1AMODO img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main #sec4-amado div span .textbesidespicAMODO {
+  width: 540px;
+  height: 330px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main #sec4-amado div span .textbesidespicAMODO p {
+  font-size: 24px;
+  color: #616161;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+}
+main #sec4-amado div span .textbesidespicAMODO span {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+main #sec4-amado div span .textbesidespicAMODO span h6 {
+  font-size: 24px;
+  color: #616161;
+  font-weight: 600;
+}
+main #sec4-amado div span .textbesidespicAMODO span ul {
+  padding-left: 20px;
+}
+main #sec4-amado div span .textbesidespicAMODO span ul li {
+  font-size: 24px;
+  color: #616161;
+  font-weight: 400;
+}
+main #sec4-amado div span .createdResponsive {
+  display: none;
+}
+main #sec5-amado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+}
+main #sec5-amado div {
+  width: 1200px;
+}
+main #sec5-amado div span {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+main #sec5-amado div span span {
+  height: 72px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+main #sec5-amado div span span .pic {
+  height: 54px;
+  width: 59px;
+  position: relative;
+}
+main #sec5-amado div span span .pic .circle {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: rgba(201, 255, 195, 0.3607843137);
+  position: absolute;
+  top: 16px;
+  z-index: 0;
+  left: 20px;
+}
+main #sec5-amado div span span .pic img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1000;
+}
+main #sec5-amado div span span .text {
+  display: flex;
+  flex-direction: column;
+}
+main #sec5-amado div span span .text .createdITEM {
+  display: none;
+}
+main #sec5-amado div span span .text h6 {
+  font-size: 32px;
+  color: #000000;
+  font-weight: 500;
+}
+main #sec5-amado div span span .text p {
+  font-size: 20px;
+  color: #616161;
+  font-weight: 400;
+}
+main #sec7-amodo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 160px;
+}
+main #sec7-amodo div {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+main #sec7-amodo div h1 {
+  font-size: 64px;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+}
+main #sec7-amodo div p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  color: #616161;
+  width: 770px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 20px;
+}
+main #sec7-amodo div span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  width: 1200px;
+  margin-top: 20px;
+}
+main #sec7-amodo div span .icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.157);
+  color: #616161;
+  font-size: 20px;
+}
+main #sec7-amodo div span span {
+  height: 200px;
+  width: 200px;
+}
+main #sec7-amodo div span span img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 
 /* Responsive starts */
 @media (max-width: 1200px) {
@@ -2021,6 +2307,82 @@ main #sec4-Amotrade div span .left span {
   }
   main #sec4-Amotrade div span .left span {
     width: 250px;
+  }
+  main #sec2-amado div {
+    width: 1000px;
+  }
+  main #sec2-amado div span {
+    width: 1000px;
+  }
+  main #sec3-amado div {
+    width: 1000px;
+  }
+  main #sec3-amado div span span {
+    gap: 20px;
+    width: 280px;
+    height: 250px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 22px;
+    padding-right: 20px;
+  }
+  main #sec3-amado div span span h1 {
+    font-size: 60px;
+    color: black;
+    font-weight: 500;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #sec3-amado div span span h6 {
+    font-size: 22px;
+    color: #616161;
+    font-weight: 600;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #sec3-amado div span span p {
+    font-size: 14px;
+    color: #616161;
+    font-weight: 300;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #sec4-amado div span .pic1AMODO {
+    width: 520px;
+    height: 456px;
+  }
+  main #sec4-amado div span .textbesidespicAMODO {
+    width: 470px;
+  }
+  main #sec4-amado div span .textbesidespicAMODO p {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  main #sec4-amado div span .textbesidespicAMODO span h6 {
+    font-size: 22px;
+  }
+  main #sec4-amado div span .textbesidespicAMODO span ul li {
+    font-size: 22px;
+  }
+  main #sec5-amado div {
+    width: 1000px;
+  }
+  main #sec5-amado div span span {
+    height: 72px;
+    width: 300px;
+  }
+  main #sec7-amodo div {
+    width: 1000px;
+  }
+  main #sec7-amodo div h1 {
+    font-size: 62px;
+  }
+  main #sec7-amodo div p {
+    font-size: 20px;
+  }
+  main #sec7-amodo div span {
+    width: 1000px;
+  }
+  main #sec7-amodo div span span {
+    height: 150px;
+    width: 150px;
   }
 }
 @media (max-width: 1000px) {
@@ -2429,6 +2791,96 @@ main #sec4-Amotrade div span .left span {
     width: 180px;
     height: 55px;
     font-size: 24px;
+  }
+  main #sec2-amado {
+    padding: 50px 0px;
+  }
+  main #sec2-amado div {
+    width: 770px;
+  }
+  main #sec2-amado div span {
+    width: 770px;
+    height: 400px;
+  }
+  main #sec3-amado div {
+    width: 770px;
+  }
+  main #sec3-amado div span span {
+    width: 200px;
+    height: 180px;
+    gap: 10px;
+  }
+  main #sec3-amado div span span h1 {
+    font-size: 50px;
+  }
+  main #sec3-amado div span span h6 {
+    font-size: 17px;
+  }
+  main #sec3-amado div span span p {
+    font-size: 10px;
+  }
+  main #sec4-amado div span .pic1AMODO {
+    width: 450px;
+    height: 320px;
+  }
+  main #sec4-amado div span .textbesidespicAMODO {
+    width: 290px;
+    gap: 20px;
+  }
+  main #sec4-amado div span .textbesidespicAMODO p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  main #sec4-amado div span .textbesidespicAMODO span h6 {
+    font-size: 18px;
+  }
+  main #sec4-amado div span .textbesidespicAMODO span ul li {
+    font-size: 18px;
+  }
+  main #sec5-amado div {
+    width: 770px;
+  }
+  main #sec5-amado div span {
+    gap: 20px;
+  }
+  main #sec5-amado div span span {
+    height: 72px;
+    width: 220px;
+    gap: 20px;
+  }
+  main #sec5-amado div span span .pic img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  main #sec5-amado div span span .text {
+    gap: 4px;
+  }
+  main #sec5-amado div span span .text h6 {
+    font-size: 25px;
+  }
+  main #sec5-amado div span span .text p {
+    font-size: 16px;
+  }
+  main #sec7-amodo div {
+    width: 770px;
+  }
+  main #sec7-amodo div h1 {
+    font-size: 54px;
+  }
+  main #sec7-amodo div p {
+    font-size: 18px;
+  }
+  main #sec7-amodo div span {
+    width: 770px;
+  }
+  main #sec7-amodo div span span {
+    height: 100px;
+    width: 100px;
+  }
+  main #sec7-amodo div span .icon {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
   }
 }
 @media (max-width: 770px) {
@@ -2904,6 +3356,213 @@ main #sec4-Amotrade div span .left span {
     width: 150px;
     height: 45px;
     font-size: 20px;
+  }
+  main #sec2-amado {
+    padding: 50px 0px;
+  }
+  main #sec2-amado div {
+    width: 590px;
+  }
+  main #sec2-amado div span {
+    width: 590px;
+    height: 350px;
+  }
+  main #sec3-amado {
+    padding: 30px 0px;
+  }
+  main #sec3-amado div {
+    width: 590px;
+  }
+  main #sec3-amado div .deletedResponsive {
+    display: none;
+  }
+  main #sec3-amado div .createdResponsive {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  main #sec3-amado div .createdResponsive span {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    width: 280px;
+    height: 250px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 22px;
+    padding-right: 20px;
+    background-color: #ebfde9;
+  }
+  main #sec3-amado div .createdResponsive span h1 {
+    font-size: 64px;
+    color: black;
+    font-weight: 500;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #sec3-amado div .createdResponsive span h6 {
+    font-size: 24px;
+    color: #616161;
+    font-weight: 600;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #sec3-amado div .createdResponsive span p {
+    font-size: 16px;
+    color: #616161;
+    font-weight: 300;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #sec4-amado div .deletedItem {
+    display: none;
+  }
+  main #sec4-amado div .createdITEM {
+    display: flex;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #sec4-amado div span {
+    flex-direction: column;
+    gap: 50px;
+  }
+  main #sec4-amado div span .pic1AMODO {
+    width: 590px;
+    height: 330px;
+  }
+  main #sec4-amado div span .textbesidespicAMODO {
+    display: none;
+  }
+  main #sec4-amado div span .createdResponsive {
+    display: flex;
+    width: 590px;
+    padding-top: 60px;
+  }
+  main #sec4-amado div span .createdResponsive h1 {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #sec4-amado div span .createdResponsive p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "League Spartan", sans-serif;
+    line-height: 30px;
+    color: #616161;
+    text-align: center;
+  }
+  main #secREsponsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+  }
+  main #secREsponsive div {
+    width: 590px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  main #secREsponsive div h1 {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #secREsponsive div p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "League Spartan", sans-serif;
+    color: #616161;
+    line-height: 25px;
+    text-align: center;
+  }
+  main #secREsponsive div span {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  main #secREsponsive div span span {
+    width: 270px;
+    height: 270px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main #secREsponsive div span span img {
+    width: 100%;
+    height: 100%;
+  }
+  main #secREsponsive div span span .kiwi {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+  }
+  main #sec5-amado div {
+    width: 770px;
+  }
+  main #sec5-amado div span {
+    gap: 100px;
+    flex-direction: column;
+  }
+  main #sec5-amado div span span {
+    height: 90px;
+    width: 590px;
+    gap: 20px;
+    flex-direction: column;
+  }
+  main #sec5-amado div span span .pic img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  main #sec5-amado div span span .text {
+    gap: 4px;
+  }
+  main #sec5-amado div span span .text .deletedItem {
+    display: none;
+  }
+  main #sec5-amado div span span .text .createdITEM {
+    display: flex;
+  }
+  main #sec5-amado div span span .text h6 {
+    font-size: 35px;
+  }
+  main #sec5-amado div span span .text p {
+    font-size: 30px;
+  }
+  main #sec7-amodo {
+    padding-top: 0px;
+    padding-bottom: 70px;
+  }
+  main #sec7-amodo div {
+    width: 590px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+  main #sec7-amodo div h1 {
+    font-size: 32px;
+    width: 340px;
+    text-align: center;
+  }
+  main #sec7-amodo div p {
+    font-size: 15px;
+    width: 340px;
+  }
+  main #sec7-amodo div span {
+    width: 590px;
+    gap: 17px;
+  }
+  main #sec7-amodo div span span {
+    height: 100px;
+    width: 100px;
+  }
+  main #sec7-amodo div span .icon {
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
   }
 }
 @media (max-width: 590px) {
@@ -3554,6 +4213,193 @@ main #sec4-Amotrade div span .left span {
     width: 40vw;
     height: 4vh;
     font-size: 17px;
+  }
+  main #sec2-amado {
+    padding: 50px 0px;
+  }
+  main #sec2-amado div {
+    width: 100%;
+  }
+  main #sec2-amado div span {
+    width: 80vw;
+    height: 30vh;
+  }
+  main #sec3-amado {
+    padding: 30px 0px;
+  }
+  main #sec3-amado div {
+    width: 100%;
+  }
+  main #sec3-amado div .deletedResponsive {
+    display: none;
+  }
+  main #sec3-amado div .createdResponsive {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  main #sec3-amado div .createdResponsive span {
+    gap: 2vw;
+    width: 40vw;
+    height: 20vh;
+  }
+  main #sec3-amado div .createdResponsive span h1 {
+    font-size: 8vw;
+    color: black;
+    font-weight: 500;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #sec3-amado div .createdResponsive span h6 {
+    font-size: 4vw;
+    color: #616161;
+    font-weight: 600;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #sec3-amado div .createdResponsive span p {
+    font-size: 2.4vw;
+    color: #616161;
+    font-weight: 300;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #sec4-amado {
+    padding: 30px 0px;
+  }
+  main #sec4-amado div .deletedItem {
+    display: none;
+  }
+  main #sec4-amado div .createdITEM {
+    display: flex;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "League Spartan", sans-serif;
+  }
+  main #sec4-amado div span {
+    flex-direction: column;
+    gap: 50px;
+  }
+  main #sec4-amado div span .pic1AMODO {
+    width: 80vw;
+    height: 30vh;
+  }
+  main #sec4-amado div span .textbesidespicAMODO {
+    display: none;
+  }
+  main #sec4-amado div span .createdResponsive {
+    display: flex;
+    width: 80vw;
+    padding-top: 0px;
+  }
+  main #sec4-amado div span .createdResponsive h1 {
+    font-size: 7vw;
+    font-weight: 500;
+    text-align: center;
+  }
+  main #sec4-amado div span .createdResponsive p {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+  main #secREsponsive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+  }
+  main #secREsponsive div {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  main #secREsponsive div h1 {
+    font-size: 7vw;
+  }
+  main #secREsponsive div p {
+    font-size: 4vw;
+  }
+  main #secREsponsive div span {
+    width: 100vw;
+    gap: 3vw;
+    align-items: center;
+    justify-content: center;
+  }
+  main #secREsponsive div span span {
+    width: 48vw;
+    height: 30vh;
+  }
+  main #secREsponsive div span span img {
+    width: 100%;
+    height: 100%;
+  }
+  main #secREsponsive div span span .kiwi {
+    position: absolute;
+    height: 35vw;
+    width: 20vh;
+  }
+  main #sec5-amado div {
+    width: 100%;
+  }
+  main #sec5-amado div span {
+    gap: 20vw;
+    flex-direction: column;
+  }
+  main #sec5-amado div span span {
+    height: 25vh;
+    width: 80vw;
+    gap: 2vw;
+    flex-direction: column;
+  }
+  main #sec5-amado div span span .pic img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  main #sec5-amado div span span .text {
+    gap: 4px;
+  }
+  main #sec5-amado div span span .text .deletedItem {
+    display: none;
+  }
+  main #sec5-amado div span span .text .createdITEM {
+    display: flex;
+  }
+  main #sec5-amado div span span .text h6 {
+    font-size: 10vw;
+  }
+  main #sec5-amado div span span .text p {
+    font-size: 7vw;
+    text-align: center;
+  }
+  main #sec7-amodo {
+    padding-top: 0px;
+    padding-bottom: 70px;
+  }
+  main #sec7-amodo div {
+    width: 100%;
+  }
+  main #sec7-amodo div h1 {
+    font-size: 7vw;
+    width: 340px;
+    text-align: center;
+  }
+  main #sec7-amodo div p {
+    font-size: 2.5vw;
+    width: 70vw;
+  }
+  main #sec7-amodo div span {
+    width: 100%;
+    gap: 4vw;
+  }
+  main #sec7-amodo div span span {
+    height: 25vw;
+    width: 25vw;
+  }
+  main #sec7-amodo div span .icon {
+    width: 5vw;
+    height: 5vw;
+    font-size: 2.5vw;
   }
 }
 @media (max-width: 340px) {

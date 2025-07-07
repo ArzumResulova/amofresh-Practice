@@ -1932,6 +1932,307 @@ main {
             }
         }
     }
+    #sec2-amado {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0px;
+        div {
+            width: 1200px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+
+            .black {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background-color: #00000085;
+                border-radius: 20px;
+            }
+            span {
+                height: 590px;
+                width: 1200px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    font-size: 60px;
+                    color: white;
+                    position: absolute;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+
+    #secREsponsive {
+        display: none;
+    }
+    #sec3-amado {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0px;
+        div {
+            width: 1200px;
+            align-items: center;
+            justify-content: center;
+            // background-color: #ed7725;
+            span {
+                display: flex;
+                gap: 20px;
+                span {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: start;
+                    gap: 20px;
+                    width: 280px;
+                    height: 250px;
+                    border-radius: 30px;
+                    padding-left: 20px;
+                    padding-top: 22px;
+                    padding-right: 20px;
+                    // color: white;
+                    background-color: #ebfde9;
+                    h1 {
+                        font-size: 64px;
+                        color: black;
+                        font-weight: 500;
+                        font-family: "League Spartan", sans-serif;
+                    }
+
+                    h6 {
+                        font-size: 24px;
+                        color: #616161;
+                        font-weight: 600;
+                        font-family: "League Spartan", sans-serif;
+                    }
+                    p {
+                        font-size: 16px;
+                        color: #616161;
+                        font-weight: 300;
+                        font-family: "League Spartan", sans-serif;
+                    }
+                }
+            }
+            .createdResponsive {
+                display: none;
+            }
+        }
+    }
+
+    #sec4-amado {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0px;
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 1200px;
+            flex-direction: column;
+            gap: 40px;
+            .createdITEM {
+                display: none;
+            }
+
+            span {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+
+                .pic1AMODO {
+                    width: 590px;
+                    height: 456px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+                .textbesidespicAMODO {
+                    width: 540px;
+                    height: 330px;
+                    // background-color: #c9ffc3;
+                    display: flex;
+                    align-items: start;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    p {
+                        font-size: 24px;
+                        color: #616161;
+                        line-height: 30px;
+                        font-weight: 400;
+                        font-family: "League Spartan", sans-serif;
+                    }
+                    span {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        justify-content: start;
+                        h6 {
+                            font-size: 24px;
+                            color: #616161;
+                            font-weight: 600;
+                        }
+                        ul {
+                            padding-left: 20px;
+                            li {
+                                font-size: 24px;
+                                color: #616161;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+                .createdResponsive {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    #sec5-amado {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0px;
+
+        div {
+            width: 1200px;
+            span {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                align-items: center;
+                justify-content: center;
+                span {
+                    height: 72px;
+                    width: 400px;
+                    display: flex;
+                    // background-color: #616161;
+                    flex-direction: row;
+                    gap: 10px;
+                    align-items: center;
+                    justify-content: center;
+
+                    .pic {
+                        height: 54px;
+                        width: 59px;
+                        position: relative;
+                        .circle {
+                            height: 40px;
+                            width: 40px;
+                            border-radius: 100%;
+                            background-color: #c9ffc35c;
+                            position: absolute;
+                            top: 16px;
+                            z-index: 0;
+                            left: 20px;
+                        }
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            z-index: 1000;
+                        }
+                    }
+                    .text {
+                        display: flex;
+                        flex-direction: column;
+                        .createdITEM{
+                            display: none;
+                        }
+                        h6 {
+                            font-size: 32px;
+                            color: #000000;
+                            font-weight: 500;
+                        }
+                        p {
+                            font-size: 20px;
+                            color: #616161;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #sec7-amodo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 160px;
+        div {
+            width: 1200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            h1 {
+                font-size: 64px;
+                font-weight: 500;
+                font-family: "League Spartan", sans-serif;
+            }
+            p {
+                font-size: 20px;
+                font-weight: 400;
+                font-family: "League Spartan", sans-serif;
+                color: #616161;
+                width: 770px;
+                text-align: center;
+                line-height: 30px;
+                margin-top: 20px;
+            }
+            span {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 80px;
+                width: 1200px;
+                // background-color: palevioletred;
+                margin-top: 20px;
+                .icon {
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 100%;
+                    background-color: white;
+                    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.157);
+                    color: #616161;
+                    font-size: 20px;
+                }
+
+                span {
+                    height: 200px;
+                    width: 200px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
 }
 
 /* Responsive starts */
@@ -2275,6 +2576,115 @@ main {
                         span {
                             width: 250px;
                         }
+                    }
+                }
+            }
+        }
+        #sec2-amado {
+            div {
+                width: 1000px;
+
+                span {
+                    width: 1000px;
+                }
+            }
+        }
+
+        #sec3-amado {
+            div {
+                width: 1000px;
+
+                span {
+                    span {
+                        gap: 20px;
+                        width: 280px;
+                        height: 250px;
+                        border-radius: 30px;
+                        padding-left: 20px;
+                        padding-top: 22px;
+                        padding-right: 20px;
+
+                        h1 {
+                            font-size: 60px;
+                            color: black;
+                            font-weight: 500;
+                            font-family: "League Spartan", sans-serif;
+                        }
+
+                        h6 {
+                            font-size: 22px;
+                            color: #616161;
+                            font-weight: 600;
+                            font-family: "League Spartan", sans-serif;
+                        }
+                        p {
+                            font-size: 14px;
+                            color: #616161;
+                            font-weight: 300;
+                            font-family: "League Spartan", sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+
+        #sec4-amado {
+            div {
+                span {
+                    .pic1AMODO {
+                        width: 520px;
+                        height: 456px;
+                    }
+                    .textbesidespicAMODO {
+                        width: 470px;
+
+                        p {
+                            font-size: 22px;
+                            line-height: 27px;
+                        }
+                        span {
+                            h6 {
+                                font-size: 22px;
+                            }
+                            ul {
+                                li {
+                                    font-size: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #sec5-amado {
+            div {
+                width: 1000px;
+                span {
+                    span {
+                        height: 72px;
+                        width: 300px;
+                    }
+                }
+            }
+        }
+
+        #sec7-amodo {
+            div {
+                width: 1000px;
+
+                h1 {
+                    font-size: 62px;
+                }
+                p {
+                    font-size: 20px;
+                }
+                span {
+                    width: 1000px;
+
+                    span {
+                        height: 150px;
+                        width: 150px;
                     }
                 }
             }
@@ -2812,6 +3222,128 @@ main {
                             height: 55px;
                             font-size: 24px;
                         }
+                    }
+                }
+            }
+        }
+
+        #sec2-amado {
+            padding: 50px 0px;
+            div {
+                width: 770px;
+
+                span {
+                    width: 770px;
+                    height: 400px;
+                }
+            }
+        }
+
+        #sec3-amado {
+            div {
+                width: 770px;
+
+                span {
+                    // padding: 0px 2vw;
+                    span {
+                        width: 200px;
+                        height: 180px;
+                        gap: 10px;
+
+                        h1 {
+                            font-size: 50px;
+                        }
+
+                        h6 {
+                            font-size: 17px;
+                        }
+                        p {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        #sec4-amado {
+            div {
+                span {
+                    .pic1AMODO {
+                        width: 450px;
+                        height: 320px;
+                    }
+                    .textbesidespicAMODO {
+                        width: 290px;
+                        gap: 20px;
+
+                        p {
+                            font-size: 16px;
+                            line-height: 20px;
+                        }
+                        span {
+                            h6 {
+                                font-size: 18px;
+                            }
+                            ul {
+                                li {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #sec5-amado {
+            div {
+                width: 770px;
+                span {
+                    gap: 20px;
+                    span {
+                        height: 72px;
+                        width: 220px;
+                        gap: 20px;
+                        .pic {
+                            img {
+                                object-fit: contain;
+                            }
+                        }
+                        .text {
+                            gap: 4px;
+                            h6 {
+                                font-size: 25px;
+                            }
+                            p {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #sec7-amodo {
+            div {
+                width: 770px;
+
+                h1 {
+                    font-size: 54px;
+                }
+                p {
+                    font-size: 18px;
+                }
+                span {
+                    width: 770px;
+
+                    span {
+                        height: 100px;
+                        width: 100px;
+                    }
+                    .icon {
+                        width: 35px;
+                        height: 35px;
+                        font-size: 20px;
                     }
                 }
             }
@@ -3383,6 +3915,235 @@ main {
                             height: 45px;
                             font-size: 20px;
                         }
+                    }
+                }
+            }
+        }
+
+        #sec2-amado {
+            padding: 50px 0px;
+            div {
+                width: 590px;
+
+                span {
+                    width: 590px;
+                    height: 350px;
+                }
+            }
+        }
+
+        #sec3-amado {
+            padding: 30px 0px;
+            div {
+                width: 590px;
+                .deletedResponsive {
+                    display: none;
+                }
+                .createdResponsive {
+                    display: flex;
+                    gap: 20px;
+                    flex-wrap: wrap;
+                    span {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        justify-content: start;
+                        gap: 20px;
+                        width: 280px;
+                        height: 250px;
+                        border-radius: 30px;
+                        padding-left: 20px;
+                        padding-top: 22px;
+                        padding-right: 20px;
+                        // color: white;
+                        background-color: #ebfde9;
+                        h1 {
+                            font-size: 64px;
+                            color: black;
+                            font-weight: 500;
+                            font-family: "League Spartan", sans-serif;
+                        }
+
+                        h6 {
+                            font-size: 24px;
+                            color: #616161;
+                            font-weight: 600;
+                            font-family: "League Spartan", sans-serif;
+                        }
+                        p {
+                            font-size: 16px;
+                            color: #616161;
+                            font-weight: 300;
+                            font-family: "League Spartan", sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+
+        #sec4-amado {
+            div {
+                .deletedItem {
+                    display: none;
+                }
+                .createdITEM {
+                    display: flex;
+                    font-size: 40px;
+                    font-weight: 500;
+                    font-family: "League Spartan", sans-serif;
+                }
+                span {
+                    flex-direction: column;
+                    gap: 50px;
+                    .pic1AMODO {
+                        width: 590px;
+                        height: 330px;
+                    }
+                    .textbesidespicAMODO {
+                        display: none;
+                    }
+                    .createdResponsive {
+                        display: flex;
+                        width: 590px;
+                        padding-top: 60px;
+                        h1 {
+                            font-size: 32px;
+                            font-weight: 500;
+                            font-family: "League Spartan", sans-serif;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            font-weight: 400;
+                            font-family: "League Spartan", sans-serif;
+                            line-height: 30px;
+                            color: #616161;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        #secREsponsive {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 0px;
+            div {
+                width: 590px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                h1 {
+                    font-size: 35px;
+                    font-weight: 500;
+                    font-family: "League Spartan", sans-serif;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: "League Spartan", sans-serif;
+                    color:#616161 ;
+                    line-height: 25px;
+                    text-align: center;
+                }
+                span {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    span {
+                        width: 270px;
+                        height: 270px;
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .kiwi {
+                            position: absolute;
+                            height: 200px;
+                            width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+
+        #sec5-amado {
+            div {
+                width: 770px;
+                span {
+                    gap: 100px;
+                    flex-direction: column;
+                    span {
+                        height: 90px;
+                        width: 590px;
+                        gap: 20px;
+                        flex-direction: column;
+                        // gap: 40px;
+                        .pic {
+                            img {
+                                object-fit: contain;
+                            }
+                        }
+                        .text {
+                            gap: 4px;
+                            .deletedItem{
+                                display: none;
+                            }
+                            .createdITEM{
+                                display: flex;
+                            }
+                            h6 {
+                                font-size: 35px;
+                            }
+                            p {
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #sec7-amodo {
+         padding-top: 0px;
+         padding-bottom: 70px;
+            div {
+                width: 590px;
+                align-items: center;
+                justify-content: space-between;
+                display: flex;
+
+
+                h1 {
+                    font-size: 32px;
+                    width: 340px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 15px;
+                    width: 340px;
+                }
+                span {
+                    width: 590px;
+                    gap: 17px;
+
+                    span {
+                        height: 100px;
+                        width: 100px;
+                    }
+                    .icon {
+                        width: 20px;
+                        height: 20px;
+                        font-size: 10px;
                     }
                 }
             }
@@ -4135,6 +4896,217 @@ main {
                 }
             }
         }
+        #sec2-amado {
+            padding: 50px 0px;
+            div {
+                width: 100%;
+
+                span {
+                    width: 80vw;
+                    height: 30vh;
+                }
+            }
+        }
+
+        #sec3-amado {
+            padding: 30px 0px;
+            div {
+                width: 100%;
+                .deletedResponsive {
+                    display: none;
+                }
+                .createdResponsive {
+                    display: flex;
+                    gap: 2vw;
+                    align-items: center;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    span {
+                        gap: 2vw;
+                        width: 40vw;
+                        height: 20vh ;
+                
+                        h1 {
+                            font-size: 8vw;
+                            color: black;
+                            font-weight: 500;
+                            font-family: "League Spartan", sans-serif;
+                        }
+
+                        h6 {
+                            font-size: 4vw;
+                            color: #616161;
+                            font-weight: 600;
+                            font-family: "League Spartan", sans-serif;
+                        }
+                        p {
+                            font-size: 2.4vw;
+                            color: #616161;
+                            font-weight: 300;
+                            font-family: "League Spartan", sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+
+        #sec4-amado {
+            padding: 30px 0px;
+            div {
+                .deletedItem {
+                    display: none;
+                }
+                .createdITEM {
+                    display: flex;
+                    font-size: 40px;
+                    font-weight: 500;
+                    font-family: "League Spartan", sans-serif;
+                }
+                span {
+                    flex-direction: column;
+                    gap: 50px;
+                    .pic1AMODO {
+                        width: 80vw;
+                        height: 30vh;
+                    }
+                    .textbesidespicAMODO {
+                        display: none;
+                    }
+                    .createdResponsive {
+                        display: flex;
+                        width: 80vw;
+                        padding-top: 0px;
+                        h1 {
+                            font-size: 7vw;
+                            font-weight: 500;
+                            text-align: center;
+                        }
+
+                        p {
+                            font-size: 3vw;
+                              line-height: 4vw;
+                        }
+                    }
+                }
+            }
+        }
+
+        #secREsponsive {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 0px;
+            div {
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                h1 {
+                    font-size: 7vw;
+                }
+
+                p {
+                    font-size: 4vw;
+                 
+                }
+                span {
+                    width: 100vw;
+                    gap: 3vw;
+                    align-items: center;
+                    justify-content: center;
+               
+                    span {
+                        width: 48vw;
+                        height: 30vh;
+                    
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        .kiwi {
+                            position: absolute;
+                            height: 35vw;
+                            width: 20vh;
+                        }
+                    }
+                }
+            }
+        }
+
+        #sec5-amado {
+            div {
+                width: 100%;
+                span {
+                    gap: 20vw;
+                    flex-direction: column;
+                    span {
+                        height: 25vh;
+                        width: 80vw;
+                        gap: 2vw;
+                        flex-direction: column;
+                        // gap: 40px;
+                        .pic {
+                            img {
+                                object-fit: contain;
+                            }
+                        }
+                        .text {
+                            gap: 4px;
+                            .deletedItem{
+                                display: none;
+                            }
+                            .createdITEM{
+                                display: flex;
+                            }
+                            h6 {
+                                font-size: 10vw;
+                            }
+                            p {
+                                font-size: 7vw;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #sec7-amodo {
+            padding-top: 0px;
+            padding-bottom: 70px;
+               div {
+                   width: 100%;
+            
+   
+   
+                   h1 {
+                       font-size: 7vw;
+                       width: 340px;
+                       text-align: center;
+                   }
+                   p {
+                       font-size: 2.5vw;
+                       width: 70vw;
+                   }
+                   span {
+                       width: 100%;
+                       gap: 4vw;
+   
+                       span {
+                           height: 25vw;
+                           width:25vw;
+                       }
+                       .icon {
+                           width: 5vw;
+                           height: 5vw;
+                           font-size: 2.5vw;
+                       }
+                   }
+               }
+           }
+       
     }
 }
 
