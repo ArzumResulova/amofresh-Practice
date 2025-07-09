@@ -47,7 +47,7 @@ EmailInp?.addEventListener("change", (e) => {
 
 
 
-console.log(localStorage);
+// console.log(localStorage);
 
 
 
@@ -188,15 +188,83 @@ formLogin?.addEventListener("submit", (e) => {
 
 
 
-
-// btnForm.style.gap = "20px";
-// gif.style.display = "flex";
-// NameLogin.style.border = "1px solid red"
-// PassLogin.style.border = "1px solid red"
+/* CLICK TO OPEN MODAL IN AMOGROW */
 
 
+const click1 = document.querySelector(".click1");
+const click2 = document.querySelector(".click2");
+const click3 = document.querySelector(".click3");
+const MODAL1 = document.querySelector("#MODAL1");
+const MODAL2 = document.querySelector("#MODAL2");
+const MODAL3 = document.querySelector("#MODAL3");
+const x = document.querySelector(".x");
+const x2 = document.querySelector(".x2");
+const x3 = document.querySelector(".x3");
+
+
+// console.log(x2);
 
 
 
 
+click1.addEventListener("click", ()=>{
 
+    if (MODAL1.style.top =="-900px"){
+        MODAL1.style.top = "0"
+    }else{
+        MODAL1.style.top = "-900px"
+    }
+
+
+})
+
+x.addEventListener("click",()=>{
+    if (MODAL1.style.top != "-900px") {
+        MODAL1.style.top = "-900px"
+        // x.style.color="red"
+    } /* else {
+        MODAL1.style.top = "0"
+    } */
+
+})
+
+click2.addEventListener("click", () => {
+
+
+
+    if (MODAL2.style.top == "-900px") {
+        MODAL2.style.top = "0"
+    } else {
+        MODAL2.style.top = "-900px"
+    }
+
+
+})
+
+x2.addEventListener("click", () => {
+    if (MODAL2.style.top != "-900px") {
+        MODAL2.style.top = "-900px";
+    } 
+
+})
+click3.addEventListener("click", () => {
+
+ 
+
+    if (MODAL3.style.top == "-900px") {
+        MODAL3.style.top = "0"
+    } else {
+        MODAL3.style.top = "-900px"
+    }
+
+
+})
+
+x3.addEventListener("click", () => {
+    if (MODAL3.style.top != "-900px") {
+        MODAL3.style.top = "-900px";
+    } /* else {
+        MODAL3.style.top = "0";
+    } */
+
+})
